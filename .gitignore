@@ -46,5 +46,8 @@ sketch
 # 가상환경 #
 /venv-do-it
 
-# 보안 #
+# 보안 : 설정 파일 #
 /project_do_it/settings.py
+
+# 보안 : DB #
+db.*
