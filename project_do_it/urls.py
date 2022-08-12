@@ -17,11 +17,11 @@ from django.contrib import admin
 from django.urls import path
 
 # Test App url 추가를 위한 import
-from test import views
+from test_basic import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     # test App path 접근 → views파일의 test_function 리턴
-    path('test/',views.test_function),
+    path('test_basic/',views.test_basic_function),
 ]
