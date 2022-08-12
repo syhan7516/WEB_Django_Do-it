@@ -11,6 +11,8 @@
 # production
 /build
 
+/venv-do-it
+
 # misc
 .DS_Store
 .env.local
@@ -40,3 +42,9 @@ bower_components
 psd
 thumb
 sketch
+
+# 가상환경 #
+/venv-do-it
+
+# 보안 #
+/project_do_it/settings.py
